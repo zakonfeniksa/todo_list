@@ -10,4 +10,4 @@ const destination = document.querySelector("#container");
       <TodoList />
     </div>,
     destination
-  )
+  );
