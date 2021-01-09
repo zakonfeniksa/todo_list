@@ -1,5 +1,6 @@
 import './TodoList.css';
 import React, {Component} from 'react';
+import TodoItems from '../TodoItems/TodoItems.js';
 
 class TodoList extends Component{
   constructor(props) {
@@ -39,6 +40,7 @@ class TodoList extends Component{
             <button type="submit">Dodaj</button>
           </form>
         </div>
+        <TodoItems entries={this.state.items}/>
       </div>
     );
    }
